@@ -1,6 +1,7 @@
 import 'package:app_ban_dien_thoai/view/user/utils/dimensions.dart';
 import 'package:app_ban_dien_thoai/view/user/widgets/app_column.dart';
 import 'package:app_ban_dien_thoai/view/user/widgets/app_icon.dart';
+import 'package:app_ban_dien_thoai/view/user/widgets/expandable_text_widget.dart';
 import 'package:flutter/material.dart';
 
 import '../utils/colors.dart';
@@ -75,6 +76,17 @@ class PopularPhoneDetail extends StatelessWidget {
                   ),
                   SizedBox(height: Dimensions.height20,),
                   BigText(text: "Description"),
+                  ExpandableTextWidget(
+                    text: "Screen: Dynamic AMOLED 2X, 6.8\", Quad HD+ (2K+)"
+                        "OS: Android 13"
+                        "Back Camera: 200MP, 12MP, 10MP, 10MP"
+                        "Front Camera: 12 MP"
+                        "CPU: Snapdragon 8 2nd Gen 8 Kernels"
+                        "RAM: 8 GB"
+                        "Storage: 256 GB"
+                        "SIM: 2 Nano SIM / 1 Nano SIM + 1 eSIM, 5G supported"
+                        "Battory, Charge: 5000 mAh, 45 W",
+                  )
                 ],
               ),
             ),
